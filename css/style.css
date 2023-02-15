@@ -1,0 +1,415 @@
+/* =================================Common css start================================== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container{
+    max-width: 1320px;
+}
+
+h1,h2,h3,h4,h5,p{
+    margin: 0;
+}
+
+ul,ol {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+:root{
+    --inter: 'Inter', sans-serif;
+    --kaushan: 'Kaushan Script', cursive;
+    --nunito: 'Nunito Sans', sans-serif;
+    --color_a: #FF9900;
+}
+
+/* .sub_button{
+    padding: 9px 18px;
+    background: var(--color_a);
+    font-family: var(--font_raleway);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid var(--color_a);
+    transition: all .4s linear;
+}
+
+.sub_button:hover{
+    background: transparent;
+    color: var(--color_a);
+    border: 1px solid var(--color_a);
+} */
+
+/* .title{
+    text-align: center;
+} */
+
+/* .title h2{
+    font-family: var(--font_raleway);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 20px;
+    color: var(--color_a);
+    margin-bottom: 10px;
+} */
+
+/* .title h1{
+    font-family: var(--font_raleway);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 40px;
+    color: var(--color_b);
+    margin-bottom: 40px;
+} */
+/* =================================Common css end================================== */
+
+/* =================================Header css start================================== */
+header .main{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--color_a);
+}
+header .main .text p{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 50px;
+    color: #000000;
+}
+header .main .header_nav {
+    display: flex;
+}
+header .main .header_nav ul{
+    display: flex;
+    position: relative;
+}
+header .main .header_nav ul::after{
+    content: "";
+    height: 38px;
+    width: 1px;
+    background: var(--color_a);
+    position: absolute;
+    top: 6px;
+    right: 0;
+}
+header .main .header_nav ul li a{
+    font-family: var(--nunito);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 50px;
+    color: #000;
+    margin-right: 23px;
+    transition: all .3s linear;
+}
+header .main .header_nav ul li a:hover{
+    color: var(--color_a);
+}
+header .main form {
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+header .main form::after {
+    content: "";
+    height: 38px;
+    width: 1px;
+    background: var(--color_a);
+    position: absolute;
+    top: 6px;
+    right: 0;
+}
+header .main form select{
+    border: none;
+    background: transparent;
+    font-family: var(--nunito);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 50px;
+    color: #000000;
+    margin-left: 23px; 
+}
+header .main form .currency{
+    margin-right: 23px;
+}
+header .main .social{
+    display: flex;
+    align-items: center;
+}
+header .main .social a{
+    margin-left: 16px;
+    color: var(--color_a);
+    font-size: 15px;
+    padding: 5px;
+}
+/* =================================Header css end================================== */
+
+/* =================================Logo_part css start================================== */
+#logo_part {
+    padding: 15px 0;
+}
+#logo_part .custom_row {
+    align-items: center;
+}
+#logo_part .logo_part_form {
+    position: relative;
+}
+#logo_part .logo_part_form input {
+    width: 100%;
+	font-family: var(--nunito);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 20px;
+	color: #DFDFDF;
+	border-radius: 50px;
+	padding: 13px 50px 11px 18px;
+    border: 2px solid var(--color_a);
+}
+#logo_part .logo_part_form input:focus {
+	outline: 0;
+    color: #444444;
+}
+#logo_part .logo_part_form button {
+	position: absolute;
+	right: 14px;
+	top: 50%;
+	border: 0;
+    color: #FF9900;
+	background: transparent;
+	font-size: 21px;
+    transform: translateY(-50%);
+}
+#logo_part .call_us {
+	display: flex;
+    align-items: center;
+    
+}
+#logo_part .call_us .icon {
+	font-size: 42px;
+    color: #FF9900;
+    margin-right: 5px;
+}
+#logo_part .call_us .text h3 {
+    font-family: var(--nunito);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+}
+#logo_part .call_us .text a {
+    font-family: var(--nunito);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+}
+#logo_part .cart_part a {
+    font-size: 33px;
+    margin-left: 27px;
+    color: #FF9900;
+}
+#logo_part .cart_part {
+    text-align: end;
+}
+#logo_part .cart_part .heart_i{
+    position: relative;
+}
+#logo_part .cart_part .heart_i h5{
+    font-family: var(--nunito);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    height: 27px;
+    width: 27px;
+    background: #FF9900;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+}
+/* =================================Logo_part css end================================== */
+
+/* =================================Navbar css start================================== */
+#navbar{
+    width: 100%;
+    background: var(--color_a);
+    padding: 0;
+}
+#navbar .dropdown-toggle::after {
+	margin-left: 11px;
+}
+#navbar li .nav-link{
+    font-family: var(--nunito);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000;
+    margin-right: 20px;
+    transition: all .3s linear;
+}
+#navbar li .nav-link:hover{
+    font-size: 15px;
+    color: #fff;
+}
+#navbar .dropdown-item {
+	font-weight: 500;
+}
+#navbar .dropdown-item:focus, .dropdown-item:hover {
+	background-color: rgba(255, 153, 0, .2);
+}
+#navbar .dropdown-menu {
+	background-color: rgba(255, 153, 0, .4);
+}
+/* =================================Navbar css end================================== */
+
+/* =================================Navbar css start================================== */
+#banner_part {
+    padding: 20px 0 50px;
+}
+#banner_part .categories {
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #FF9900;
+}
+#banner_part .categories .text {
+    background: #FF9900;
+}
+#banner_part .categories .text h4 {
+    padding: 15px 0;
+    text-align: start;
+    font-family: var(--nunito);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 20px;
+    color: #ffffff;
+    margin-left: 88px;
+}
+#banner_part .categories .filter {
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px 0 27px;
+}
+#banner_part .categories .filter .items {
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #FF9900;
+	padding: 19px 0;
+	color: #FF9900;
+	font-size: 20px;
+}
+#banner_part .categories .filter .items h5{
+    margin-left: 15px;
+    font-family: var(--inter);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;    
+}
+#banner_part .categories .offer {
+	background: #FF9900;
+	text-align: center;
+	margin: 20px 24px 20px 29px;
+}
+#banner_part .categories .offer h4{
+    font-family: var(--nunito);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 23px;
+    color: #FFFFFF;
+    padding: 24px 37px 25px 36px;
+}
+#banner_part .banner{
+    background: url(../images/Banner/banner.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 463px;
+    border-radius: 10px;
+}
+#banner_part .banner_1{
+    background: url(../images/Banner/banner1.jpg) no-repeat center;
+    background-size: cover;
+}
+#banner_part .banner_2{
+    background: url(../images/Banner/banner2.jpg) no-repeat center;
+    background-size: cover;
+}
+#banner_part .banner_3{
+    background: url(../images/Banner/banner3.jpg) no-repeat center;
+    background-size: cover;
+}
+#banner_part .banner_slide {
+    position: relative;
+    margin-bottom: 20px;
+}
+#banner_part .banner_slide .slick-dots {
+    display: flex;
+    position: absolute;
+    bottom: 50px;
+    left: 60px;
+}
+#banner_part .banner_slide .slick-dots li button{
+    font-size: 0;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 3px solid #e6e6e6;
+    background: transparent;
+    margin-right: 15px;
+}
+#banner_part .banner_slide .slick-dots .slick-active button{
+    border: 5px solid #000;
+}
+#banner_part .extra_services .service {
+	display: flex;
+	padding: 36px 21px 36px 21px;
+	border: 1px solid #FF9900;
+	border-radius: 10px;
+}
+#banner_part .extra_services .service .icon{
+    font-size: 26px;
+    color: #000;
+    margin-right: 5px;
+}
+#banner_part .extra_services .service .text h3{
+    font-family: var(--nunito);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 23px;
+    color: #000000;
+}
+#banner_part .extra_services .service .text p{
+    font-family: var(--nunito);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    color: #000000;
+    margin-top: 4px;
+}
+/* =================================Navbar css end================================== */

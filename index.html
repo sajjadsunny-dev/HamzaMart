@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hamza Mart</title>
 
+    <!-- =================font links================= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Kaushan+Script&family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- =================font links================= -->
+    
+    <!-- =================slick slider css================= -->
+    <link rel="stylesheet" href="css/slick.css">
     <!-- =================bootstrap css================= -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.3/css/bootstrap.min.css">
     <!-- =================Fontawesome css================= -->
@@ -17,42 +25,253 @@
 <body>
     <header>
         <div class="container">
-            <div class="text">
-                <p>Free Returns. Standard Shipping Orders $99+  </p>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#">My Account</a></li>
-                    <li><a href="#">Contact  Us</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">My Wishlist</a></li>
-                    <li><a href="#">Cart</a></li>
-                    <li><a href="#">Login</a></li>
-                </ul>
-
-                <form>
-                    <select name="" id="">
-                        <option value="">BNG</option>
-                    </select>
-                    <select name="" id="">
-                        <option value="">BDT</option>
-                    </select>
-                </form>
-
-                <div class="social">
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-square-twitter"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-square-whatsapp"></i>
+            <div class="main">
+                <div class="text">
+                    <p>Free Returns. Standard Shipping Orders $99+  </p>
                 </div>
-            </nav>
+                <nav class="header_nav">
+                    <ul>
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">Contact  Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">My Wishlist</a></li>
+                        <li><a href="#">Cart</a></li>
+                        <li><a href="#">Login</a></li>
+                    </ul>
+    
+                    <form>
+                        <select name="" id="">
+                            <option value=""><h3>BNG</h3></option>
+                            <option value=""><h3>ENG</h3></option>
+                        </select>
+                        <select class="currency" name="" id="">
+                            <option value="">BDT</option>
+                            <option value="">USD</option>
+                        </select>
+                    </form>
+    
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+                    </div>
+                </nav>
+            </div>
         </div>
     </header>
 
+    <section id="logo_part">
+      <div class="container">
+        <div class="row custom_row">
+          <div class="col-lg-3">
+            <a class="logo" href="#">
+              <img src="images/logo_model/logo_hamza.png" alt="logo_hamza.png">
+            </a>
+          </div>
+          <div class="col-lg-2">
+            <a class="logo_ad" href="#">
+              <img src="images/logo_model/logo_ad.png" alt="logo_ad.png">
+            </a>
+          </div>
+          <div class="col-lg-3">
+            <form class="logo_part_form">
+              <input type="text" placeholder="Search in Hamza Mart..." >
+              <button type="submit" value="Search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+          </div>
+          <div class="col-lg-2">
+            <div class="call_us">
+              <div class="icon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="text">
+                <h3>Call Us Now</h3>
+                <a href="tel:+880 1899999999">+880 1899999999</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="cart_part">
+              <a href="#">
+                <i class="fa-solid fa-circle-user"></i>
+              </a>
+              <a class="heart_i" href="#">
+                <i class="fa-solid fa-heart"></i>
+                <h5>15</h5>
+              </a>
+              <a class="heart_i" href="#">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <h5>15</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section id="navbar">
+      <nav class="navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Categories
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Products
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Pages
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Blog</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Elements
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    </section>
+
+    <section id="banner_part">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="categories">
+              <div class="text">
+                <h4>TOP<br>CATEGORIES</h4>
+              </div>
+              <div class="filter">
+                <a class="items" href="#">
+                  <i class="fa-solid fa-shirt"></i>
+                  <h5>Fashion</h5>
+                </a>
+                <a class="items" href="#">
+                  <i class="fa-solid fa-laptop"></i>
+                  <h5>Electronics</h5>
+                </a>
+                <a class="items" href="#">
+                  <i class="fa-solid fa-gift"></i>
+                  <h5>Gifts</h5>
+                </a>
+                <a class="items" href="#">
+                  <i class="fa-solid fa-house-chimney"></i>
+                  <h5>Home & Garden</h5>
+                </a>
+                <a class="items" href="#">
+                  <i class="fa-solid fa-football"></i>
+                  <h5>Game</h5>
+                </a>
+                <a class="items" href="#">
+                  <i class="fa-solid fa-child"></i>
+                  <h5>Kids </h5>
+                </a>
+                <a class="items" href="#">
+                  <i class="fa-solid fa-capsules"></i>
+                  <h5>Medicine</h5>
+                </a>
+              </div>
+              <a class="offer" href="#">
+                <h4>HUGE SALE - 70% OFF </h4>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="banner_slide">
+              <div class="banner"></div>
+              <div class="banner banner_1"></div>
+              <div class="banner banner_2"></div>
+              <div class="banner banner_3"></div>
+            </div>
+            <div class="extra_services">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="service">
+                    <div class="icon">
+                      <i class="fa-solid fa-truck"></i>
+                    </div>
+                    <div class="text">
+                      <h3>FREE SHIPPING & RETURN</h3>
+                      <p>Free shipping on all orders over $99.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="service">
+                    <div class="icon">
+                      <i class="fa-solid fa-money-bill-wave"></i>
+                    </div>
+                    <div class="text">
+                      <h3>MONEY BACK GUARANTEE</h3>
+                      <p>100% money back guarantee.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="service">
+                    <div class="icon">
+                      <i class="fa-solid fa-handshake-angle"></i>
+                    </div>
+                    <div class="text">
+                      <h3>ONLINE SUPPORT 24/7</h3>
+                      <p>We are available 24/7 for you.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================jquery all version js================= -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <!-- =================slick slider js================= -->
+    <script src="js/slick.min.js"></script>
     <!-- =================bootstrap js================= -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.3/js/bootstrap.bundle.min.js"></script>
     <!-- =================Font awesome js================= -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js"></script>
+    <!-- =================script js================= -->
+    <script src="js/script.js"></script>
 </body>
 </html>
