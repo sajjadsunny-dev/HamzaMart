@@ -25,10 +25,14 @@ a {
 :root{
     --inter: 'Inter', sans-serif;
     --kaushan: 'Kaushan Script', cursive;
-    --nunito: 'Nunito Sans', sans-serif;
+    --nunito: 'Nunito', sans-serif;
+    --nunito_s: 'Nunito Sans', sans-serif;
     --color_a: #FF9900;
 }
 
+.load_more{
+    margin: 0 auto;
+}
 /* .sub_button{
     padding: 9px 18px;
     background: var(--color_a);
@@ -82,7 +86,7 @@ header .main{
     border-bottom: 1px solid var(--color_a);
 }
 header .main .text p{
-    font-family: 'Nunito Sans';
+    font-family: var(--nunito_s);
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -106,7 +110,7 @@ header .main .header_nav ul::after{
     right: 0;
 }
 header .main .header_nav ul li a{
-    font-family: var(--nunito);
+    font-family: var(--nunito_s);
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -135,7 +139,7 @@ header .main form::after {
 header .main form select{
     border: none;
     background: transparent;
-    font-family: var(--nunito);
+    font-family: var(--nunito_s);
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -170,7 +174,7 @@ header .main .social a{
 }
 #logo_part .logo_part_form input {
     width: 100%;
-	font-family: var(--nunito);
+	font-family: var(--nunito_s);
 	font-style: normal;
 	font-weight: 400;
 	font-size: 15px;
@@ -205,7 +209,7 @@ header .main .social a{
     margin-right: 5px;
 }
 #logo_part .call_us .text h3 {
-    font-family: var(--nunito);
+    font-family: var(--nunito_s);
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -213,7 +217,7 @@ header .main .social a{
     color: #000000;
 }
 #logo_part .call_us .text a {
-    font-family: var(--nunito);
+    font-family: var(--nunito_s);
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
@@ -413,3 +417,157 @@ header .main .social a{
     margin-top: 4px;
 }
 /* =================================Navbar css end================================== */
+
+/* =================================Brands css start================================ */
+#brands {
+    padding: 50px 0;
+}
+#brands .gap{
+    row-gap: 24px;
+}
+#brands .brand_img {
+    height: 90px;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+}
+/* =================================Brands css end================================== */
+
+/* =================================Footer css start================================ */
+footer{
+    width: 100%;
+    background: #000;
+}
+footer .top{
+    padding: 70px 0 40px;
+}
+footer .top h2{
+    font-family: var(--nunito);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+footer .top .info h3 {
+	font-family: var(--nunito);
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 25px;
+	color: #FFFFFF;
+}
+footer .top .info .paragraph {
+	font-family: var(--nunito);
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 30px;
+	color: #FFFFFF;
+}
+footer .top .info .contact {
+	margin-bottom: 20px;
+}
+footer .top .info .icon {
+	display: flex;
+    justify-content: space-between;
+}
+footer .top .info .icon a {
+	font-size: 23px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid #FF9900;
+    color: #FF9900;
+    background: transparent;
+    text-align: center;
+    line-height: 47px;
+}
+footer .top .service ul li a {
+    font-family: var(--nunito);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 28px;
+    color: #FFFFFF;
+    transition: all .3s linear;
+}
+footer .top .service ul li a:hover {
+    color: #FF9900;
+}
+footer .top .tags a{
+    padding: 7px 12px;
+    font-family: var(--nunito);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin: 0 15px 15px 0;
+    transition: all .3s linear;
+}
+footer .top .tags a:hover{
+    background: #FF9900;
+    color: #000;
+    border: 1px solid #FF9900;
+}
+footer .top form {
+    position: relative;
+    margin-bottom: 30px;
+}
+footer .top form input{
+    border-radius: 50px;
+    width: 100%;
+    padding: 0 80px 0 20px;
+    border: 4px solid #fff;
+    font-family: var(--nunito);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 50px;
+    color: #898989;
+}
+footer .top form input:focus{
+    outline: 0;
+}
+footer .top form button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    border: 4px solid #fff;
+    background: #FF9900;
+    color: #FFFFFF;
+    font-family: var(--nunito);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 40px;
+    border-radius: 0 50px 50px 0;
+    padding: 0 10px;
+}
+footer .top .image img{
+    margin-bottom: 15px;
+}
+footer .bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0;
+    border-top: 1px solid #898989;
+}
+footer .bottom p{
+    font-family: var(--nunito);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+/* =================================Footer css end================================== */
