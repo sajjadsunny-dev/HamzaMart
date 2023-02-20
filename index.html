@@ -6,24 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hamza Mart</title>
 
-    <!-- =================font links================= -->
+    <!-- =================font links==================== -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Kaushan+Script&family=Nunito+Sans:wght@300;400;600;700;800;900&family=Nunito:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <!-- =================font links================= -->
+    <!-- =================font links==================== -->
     
-    <!-- =================slick slider css================= -->
+    <!-- =================slick slider css============== -->
     <link rel="stylesheet" href="css/slick.css">
     <!-- =================bootstrap css================= -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.3/css/bootstrap.min.css">
-    <!-- =================Fontawesome css================= -->
+    <!-- =================Fontawesome css=============== -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-    <!-- =================stle css================= -->
+    <script>
+      window.FontAwesomeConfig={autoReplaceSvg:false};
+    </script>
+    <!-- =================stle css====================== -->
     <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
-    <header>
+    <!-- ===========header_part start============== -->
+    <header id="header_part">
         <div class="container">
             <div class="main">
                 <div class="text">
@@ -60,7 +64,9 @@
             </div>
         </div>
     </header>
+    <!-- ===========header_part end================ -->
 
+    <!-- ===========logo_part start================ -->
     <section id="logo_part">
       <div class="container">
         <div class="row custom_row">
@@ -111,7 +117,9 @@
         </div>
       </div>
     </section>
+    <!-- ===========logo_part end================== -->
 
+    <!-- ===========navbar start=================== -->
     <section id="navbar">
       <nav class="navbar-expand-lg bg-body-tertiary">
         <div class="container">
@@ -170,7 +178,23 @@
         </div>
     </nav>
     </section>
+    <!-- ===========navbar end===================== -->
 
+    <!-- ===========navshow_part start============= -->
+    <section id="navshow_part">
+      <div class="container">
+        <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Electronics</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Library</li>
+          </ol>
+        </nav>
+      </div>
+    </section>
+        <!-- ===========navshow_part end=========== -->
+
+        <!-- ===========banner_part start========== -->
     <section id="banner_part">
       <div class="container">
         <div class="row">
@@ -216,10 +240,18 @@
           </div>
           <div class="col-lg-9">
             <div class="banner_slide">
-              <div class="banner"></div>
-              <div class="banner banner_1"></div>
-              <div class="banner banner_2"></div>
-              <div class="banner banner_3"></div>
+              <a href="#">
+                <div class="banner"></div>
+              </a>
+              <a href="#">
+                <div class="banner banner_1"></div>
+              </a>
+              <a href="#">
+                <div class="banner banner_2"></div>
+              </a>
+              <a href="#">
+                <div class="banner banner_3"></div>
+              </a>
             </div>
             <div class="extra_services">
               <div class="row">
@@ -262,9 +294,1439 @@
         </div>
       </div>
     </section>
+        <!-- ===========banner_part end============ -->
 
+        <!-- ===========flashsale_part start======= -->
+    <section id="flshsale_part">
+      <div class="container">
+        <div class="main">
+          <div class="row">
+            <div class="col-lg-2">
+              <div class="sec_heading">
+                <h4>FlashSale</h4>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="main2">
+                <div class="text">
+                  <p>On Sale Now <span>Ending in</span></p>
+                </div>
+              <div class="launching">
+                <div class="timer_count">
+                  <p id="days">00</p>
+                  <span>:</span>
+                </div>
+                <div class="timer_count">
+                  <p id="hours">00</p>
+                  <span>:</span>
+                </div>
+                <div class="timer_count">
+                  <p id="minutes">00</p>
+                  <span>:</span>
+                </div>
+                <div class="timer_count">
+                  <p id="seconds">00</p>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="col-lg-2">
+              <button class="load_more">SHOP MORE</button>
+            </div>
+          </div>
+        </div>
+        <div class="product_slider">
+          <div class="p_card">
+            <div class="off">
+              <p>70% OFF</p>
+            </div>
+            <div class="image">
+              <div class="overlay_img">
+                <div class="i"><i class="fa-solid fa-cart-plus"></i></div>
+                <div class="i"><i class="fa-solid fa-eye"></i></div>
+                <div class="i"><i class="fa-solid fa-share"></i></div>
+              </div>
+              <img src="images/products/action_camera.png" alt="action_camera.png">
+            </div>
+            <div class="bottom">
+              <div class="text">
+                <h5>3D Printer</h5>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <p>(25)</p>
+                </div>
+                <p>৳15000<span class="discount">৳22000</span></p>
+              </div>
+              <div class="heart">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+          </div>
+          <div class="p_card">
+            <div class="off">
+              <p>30% OFF</p>
+            </div>
+            <div class="image">
+              <div class="overlay_img">
+                <div class="i"><i class="fa-solid fa-cart-plus"></i></div>
+                <div class="i"><i class="fa-solid fa-eye"></i></div>
+                <div class="i"><i class="fa-solid fa-share"></i></div>
+              </div>
+              <img src="images/products/3dprinter.png" alt="3dprinter.png">
+            </div>
+            <div class="bottom">
+              <div class="text">
+                <h5>3D Printer</h5>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <p>(25)</p>
+                </div>
+                <p>৳33000<span class="discount">৳41000</span></p>
+              </div>
+              <div class="heart">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+          </div>
+          <div class="p_card">
+            <div class="off">
+              <p>70% OFF</p>
+            </div>
+            <div class="image">
+              <div class="overlay_img">
+                <div class="i"><i class="fa-solid fa-cart-plus"></i></div>
+                <div class="i"><i class="fa-solid fa-eye"></i></div>
+                <div class="i"><i class="fa-solid fa-share"></i></div>
+              </div>
+              <img src="images/products/smart_watch.png" alt="smart_watch.png">
+            </div>
+            <div class="bottom">
+              <div class="text">
+                <h5>Smart Watch</h5>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <p>(155)</p>
+                </div>
+                <p>৳1000<span class="discount">৳2500</span></p>
+              </div>
+              <div class="heart">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+          </div>
+          <div class="p_card">
+            <div class="off">
+              <p>70% OFF</p>
+            </div>
+            <div class="image">
+              <div class="overlay_img">
+                <div class="i"><i class="fa-solid fa-cart-plus"></i></div>
+                <div class="i"><i class="fa-solid fa-eye"></i></div>
+                <div class="i"><i class="fa-solid fa-share"></i></div>
+              </div>
+              <img src="images/products/palm_printshirt.png" alt="palm_printshirt.png">
+            </div>
+            <div class="bottom">
+              <div class="text">
+                <h5>Palm Print Shirt</h5>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <p>(25)</p>
+                </div>
+                <p>৳600<span class="discount">৳2000</span></p>
+              </div>
+              <div class="heart">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+          </div>
+          <div class="p_card">
+            <div class="off">
+              <p>70% OFF</p>
+            </div>
+            <div class="image">
+              <div class="overlay_img">
+                <div class="i"><i class="fa-solid fa-cart-plus"></i></div>
+                <div class="i"><i class="fa-solid fa-eye"></i></div>
+                <div class="i"><i class="fa-solid fa-share"></i></div>
+              </div>
+              <img src="images/products/cufferd_blackshoe.png" alt="cufferd_blackshoe.png">
+            </div>
+            <div class="bottom">
+              <div class="text">
+                <h5>Cuffed Chino Shorts</h5>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <p>(135)</p>
+                </div>
+                <p>৳1000<span class="discount">৳11000</span></p>
+              </div>
+              <div class="heart">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+          </div>
+          <div class="p_card">
+            <div class="off">
+              <p>70% OFF</p>
+            </div>
+            <div class="image">
+              <div class="overlay_img">
+                <div class="i"><i class="fa-solid fa-cart-plus"></i></div>
+                <div class="i"><i class="fa-solid fa-eye"></i></div>
+                <div class="i"><i class="fa-solid fa-share"></i></div>
+              </div>
+              <img src="images/products/pt_bags.png" alt="pt_bags.png">
+            </div>
+            <div class="bottom">
+              <div class="text">
+                <h5>PT Bags</h5>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <p>(25)</p>
+                </div>
+                <p>৳1399<span class="discount">৳2800</span></p>
+              </div>
+              <div class="heart">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+          </div>
+          <div class="p_card">
+            <div class="off">
+              <p>New</p>
+            </div>
+            <div class="image">
+              <div class="overlay_img">
+                <div class="i"><i class="fa-solid fa-cart-plus"></i></div>
+                <div class="i"><i class="fa-solid fa-eye"></i></div>
+                <div class="i"><i class="fa-solid fa-share"></i></div>
+              </div>
+              <img src="images/products/power_bank.png" alt="power_bank.png">
+            </div>
+            <div class="bottom">
+              <div class="text">
+                <h5>power Bank</h5>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <p>(2)</p>
+                </div>
+                <p>৳1500</p>
+              </div>
+              <div class="heart">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+          </div>
+          <div class="p_card">
+            <div class="image">
+              <div class="overlay_img">
+                <div class="i"><i class="fa-solid fa-cart-plus"></i></div>
+                <div class="i"><i class="fa-solid fa-eye"></i></div>
+                <div class="i"><i class="fa-solid fa-share"></i></div>
+              </div>
+              <img src="images/products/jbl.png" alt="jbl.png">
+            </div>
+            <div class="bottom">
+              <div class="text">
+                <h5>JBL</h5>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <p>(25)</p>
+                </div>
+                <p>৳10000<span class="discount">৳15000</span></p>
+              </div>
+              <div class="heart">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+          </div>
+          <div class="p_card">
+            <div class="image">
+              <div class="overlay_img">
+                <div class="i"><i class="fa-solid fa-cart-plus"></i></div>
+                <div class="i"><i class="fa-solid fa-eye"></i></div>
+                <div class="i"><i class="fa-solid fa-share"></i></div>
+              </div>
+              <img src="images/products/jbl_speaker.png" alt="jbl_speaker.png">
+            </div>
+            <div class="bottom">
+              <div class="text">
+                <h5>JBL Bluetooth Speaker</h5>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <p>(25)</p>
+                </div>
+                <p>৳3000</p>
+              </div>
+              <div class="heart">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===========flashsale_part end============= -->
+
+    <!-- ===========featured_products start======== -->
+    <section id="featured_products">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="sec_heading">
+              <h4>Featured Products</h4>
+            </div>
+          </div>
+        </div>
+        <div class="row gap">
+          <div class="col-lg-2">
+            <div class="p_card">
+              <div class="off">
+                <p>New</p>
+              </div>
+              <div class="image">
+                <div class="overlay_img">
+                  <div class="i"><i class="fa-solid fa-cart-plus"></i></div>
+                  <div class="i"><i class="fa-solid fa-eye"></i></div>
+                  <div class="i"><i class="fa-solid fa-share"></i></div>
+                </div>
+                <img src="images/products/man_shoe.png" alt="man_shoe-2.png">
+              </div>
+              <div class="bottom">
+                <div class="text">
+                  <h5>Men Shoe</h5>
+                  <div class="icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <p>(2)</p>
+                  </div>
+                  <p>৳1670</p>
+                </div>
+                <div class="heart">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="p_card">
+              <div class="image">
+                <div class="overlay_img">
+                  <div class="i"><i class="fa-solid fa-cart-plus"></i></div>
+                  <div class="i"><i class="fa-solid fa-eye"></i></div>
+                  <div class="i"><i class="fa-solid fa-share"></i></div>
+                </div>
+                <img src="images/products/jbl_speaker.png" alt="jbl_speaker.png">
+              </div>
+              <div class="bottom">
+                <div class="text">
+                  <h5>JBL Bluetooth Speaker</h5>
+                  <div class="icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <p>(25)</p>
+                  </div>
+                  <p>৳3000</p>
+                </div>
+                <div class="heart">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="p_card">
+              <div class="image">
+                <div class="overlay_img">
+                  <div class="i"><i class="fa-solid fa-cart-plus"></i></div>
+                  <div class="i"><i class="fa-solid fa-eye"></i></div>
+                  <div class="i"><i class="fa-solid fa-share"></i></div>
+                </div>
+                <img src="images/products/ladies_bag.png" alt="ladies_bag.png">
+              </div>
+              <div class="bottom">
+                <div class="text">
+                  <h5>Ladies bag</h5>
+                  <div class="icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <p>(155)</p>
+                  </div>
+                  <p>৳1000</p>
+                </div>
+                <div class="heart">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="p_card">
+              <div class="image">
+                <div class="overlay_img">
+                  <div class="i"><i class="fa-solid fa-cart-plus"></i></div>
+                  <div class="i"><i class="fa-solid fa-eye"></i></div>
+                  <div class="i"><i class="fa-solid fa-share"></i></div>
+                </div>
+                <img src="images/products/jbl.png" alt="jbl.png">
+              </div>
+              <div class="bottom">
+                <div class="text">
+                  <h5>JBL</h5>
+                  <div class="icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <p>(25)</p>
+                  </div>
+                  <p>৳10000<span class="discount">৳15000</span></p>
+                </div>
+                <div class="heart">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="p_card">
+              <div class="off">
+                <p>10% OFF</p>
+              </div>
+              <div class="image">
+                <div class="overlay_img">
+                  <div class="i"><i class="fa-solid fa-cart-plus"></i></div>
+                  <div class="i"><i class="fa-solid fa-eye"></i></div>
+                  <div class="i"><i class="fa-solid fa-share"></i></div>
+                </div>
+                <img src="images/products/leather_belt.png" alt="leather_belt.png">
+              </div>
+              <div class="bottom">
+                <div class="text">
+                  <h5>Leather Belt</h5>
+                  <div class="icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <p>(235)</p>
+                  </div>
+                  <p>৳1000<span class="discount">৳1100</span></p>
+                </div>
+                <div class="heart">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="p_card">
+              <div class="off">
+                <p>50% OFF</p>
+              </div>
+              <div class="image">
+                <div class="overlay_img">
+                  <div class="i"><i class="fa-solid fa-cart-plus"></i></div>
+                  <div class="i"><i class="fa-solid fa-eye"></i></div>
+                  <div class="i"><i class="fa-solid fa-share"></i></div>
+                </div>
+                <img src="images/products/blue_manshoe.png" alt="blue_manshoe.png">
+              </div>
+              <div class="bottom">
+                <div class="text">
+                  <h5>Blue Leather Man Shoe</h5>
+                  <div class="icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <p>(25)</p>
+                  </div>
+                  <p>৳1399<span class="discount">৳2800</span></p>
+                </div>
+                <div class="heart">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="p_card">
+              <div class="off">
+                <p>New</p>
+              </div>
+              <div class="image">
+                <div class="overlay_img">
+                  <div class="i"><i class="fa-solid fa-cart-plus"></i></div>
+                  <div class="i"><i class="fa-solid fa-eye"></i></div>
+                  <div class="i"><i class="fa-solid fa-share"></i></div>
+                </div>
+                <img src="images/products/power_bank.png" alt="power_bank.png">
+              </div>
+              <div class="bottom">
+                <div class="text">
+                  <h5>power Bank</h5>
+                  <div class="icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <p>(2)</p>
+                  </div>
+                  <p>৳1500</p>
+                </div>
+                <div class="heart">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="p_card">
+              <div class="off">
+                <p>30% OFF</p>
+              </div>
+              <div class="image">
+                <div class="overlay_img">
+                  <div class="i"><i class="fa-solid fa-cart-plus"></i></div>
+                  <div class="i"><i class="fa-solid fa-eye"></i></div>
+                  <div class="i"><i class="fa-solid fa-share"></i></div>
+                </div>
+                <img src="images/products/hiking_shoe.png" alt="hiking_shoe.png">
+              </div>
+              <div class="bottom">
+                <div class="text">
+                  <h5>Hiking shoe</h5>
+                  <div class="icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <p>(25)</p>
+                  </div>
+                  <p>৳3300</p>
+                </div>
+                <div class="heart">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="p_card">
+              <div class="image">
+                <div class="overlay_img">
+                  <div class="i"><i class="fa-solid fa-cart-plus"></i></div>
+                  <div class="i"><i class="fa-solid fa-eye"></i></div>
+                  <div class="i"><i class="fa-solid fa-share"></i></div>
+                </div>
+                <img src="images/products/smart_headphone.png" alt="smart_headphone.png">
+              </div>
+              <div class="bottom">
+                <div class="text">
+                  <h5>Smart Headphone</h5>
+                  <div class="icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <p>(155)</p>
+                  </div>
+                  <p>৳1000<span class="discount">৳2500</span></p>
+                </div>
+                <div class="heart">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="p_card">
+              <div class="image">
+                <div class="overlay_img">
+                  <div class="i"><i class="fa-solid fa-cart-plus"></i></div>
+                  <div class="i"><i class="fa-solid fa-eye"></i></div>
+                  <div class="i"><i class="fa-solid fa-share"></i></div>
+                </div>
+                <img src="images/products/desk_mouse.png" alt="desk_mouse.png">
+              </div>
+              <div class="bottom">
+                <div class="text">
+                  <h5>Desktop Mouse</h5>
+                  <div class="icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <p>(25)</p>
+                  </div>
+                  <p>৳600</p>
+                </div>
+                <div class="heart">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="p_card">
+              <div class="off">
+                <p>10% OFF</p>
+              </div>
+              <div class="image">
+                <div class="overlay_img">
+                  <div class="i"><i class="fa-solid fa-cart-plus"></i></div>
+                  <div class="i"><i class="fa-solid fa-eye"></i></div>
+                  <div class="i"><i class="fa-solid fa-share"></i></div>
+                </div>
+                <img src="images/products/dslr_camera.png" alt="dslr_camera.png">
+              </div>
+              <div class="bottom">
+                <div class="text">
+                  <h5>DSLR Camera</h5>
+                  <div class="icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <p>(235)</p>
+                  </div>
+                  <p>৳100000<span class="discount">৳110000</span></p>
+                </div>
+                <div class="heart">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="p_card">
+              <div class="off">
+                <p>50% OFF</p>
+              </div>
+              <div class="image">
+                <div class="overlay_img">
+                  <div class="i"><i class="fa-solid fa-cart-plus"></i></div>
+                  <div class="i"><i class="fa-solid fa-eye"></i></div>
+                  <div class="i"><i class="fa-solid fa-share"></i></div>
+                </div>
+                <img src="images/products/gps_watch.png" alt="gps_watch.png">
+              </div>
+              <div class="bottom">
+                <div class="text">
+                  <h5>GPS Watch</h5>
+                  <div class="icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <p>(25)</p>
+                  </div>
+                  <p>৳1399<span class="discount">৳2800</span></p>
+                </div>
+                <div class="heart">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="load_more" type="submit">LOAD MORE</button>
+      </div>
+    </section>
+    <!-- ===========featured_products end========== -->
+
+    <!-- ===========categories_part start========== -->
+    <section id="categories_part">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="sec_heading">
+              <h4>Categories</h4>
+            </div>
+          </div>
+        </div>
+        <div class="row gap">
+          <div class="col-lg-2">
+            <a class="categories" href="#">
+              <img src="images/categories/c-1.png" alt="c-1.png">
+              <p>Computer Accessories</p>
+            </a>
+          </div>
+          <div class="col-lg-2">
+            <a class="categories" href="#">
+              <img src="images/categories/c-2.png" alt="c-2.png">
+              <p>Electric Works</p>
+            </a>
+          </div>
+          <div class="col-lg-2">
+            <a class="categories" href="#">
+              <img src="images/categories/c-3.png" alt="c-3.png">
+              <p>Perfumes</p>
+            </a>
+          </div>
+          <div class="col-lg-2">
+            <a class="categories" href="#">
+              <img src="images/categories/c-4.png" alt="c-4.png">
+              <p>Automobile Parts</p>
+            </a>
+          </div>
+          <div class="col-lg-2">
+            <a class="categories" href="#">
+              <img src="images/categories/c-5.png" alt="c-5.png">
+              <p>Kids Item</p>
+            </a>
+          </div>
+          <div class="col-lg-2">
+            <a class="categories" href="#">
+              <img src="images/categories/c-6.png" alt="c-6.png">
+              <p>Crockeries Item</p>
+            </a>
+          </div>
+          <div class="col-lg-2">
+            <a class="categories" href="#">
+              <img src="images/categories/c-7.png" alt="c-7.png">
+              <p>Beauty Products</p>
+            </a>
+          </div>
+          <div class="col-lg-2">
+            <a class="categories" href="#">
+              <img src="images/categories/c-8.png" alt="c-8.png">
+              <p>Books</p>
+            </a>
+          </div>
+          <div class="col-lg-2">
+            <a class="categories" href="#">
+              <img src="images/categories/c-9.png" alt="c-9.png">
+              <p>Sports & Entertainment</p>
+            </a>
+          </div>
+          <div class="col-lg-2">
+            <a class="categories" href="#">
+              <img src="images/categories/c-10.png" alt="c-10.png">
+              <p>Groceries</p>
+            </a>
+          </div>
+          <div class="col-lg-2">
+            <a class="categories" href="#">
+              <img src="images/categories/c-11.png" alt="c-11.png">
+              <p>Stationery Product</p>
+            </a>
+          </div>
+          <div class="col-lg-2">
+            <a class="categories" href="#">
+              <img src="images/categories/c-12.png" alt="c-12.png">
+              <p>Tech Gadgets</p>
+            </a>
+          </div>
+        </div>
+        <button class="load_more">LOAD MORE</button>
+      </div>
+    </section>
+    <!-- ===========categories_part end============ -->
+
+    <!-- ===========newsteller_part start========== -->
+    <section id="newsteller_part">
+      <div class="container">
+        <div class="newsteller">
+          <div class="text_form">
+            <h2>SUBSCRIBE TO OUR NEWSLETTER</h2>
+            <p>Get all the latest information on events, sales and offers. Sign up for newsletter.</p>
+            <form class="subscribe_from">
+              <input class="subscribe_input" type="email" placeholder="Email Address...">
+              <button class="subscribe_button" type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===========newsteller_part end============ -->
+
+    <!-- ===========top_rated start================ -->
+    <section id="top_rated">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="sec_heading">
+              <h4>Top Rated Products</h4>
+            </div>
+          </div>
+        </div>
+        <div class="row gap">
+          <div class="col-lg-4">
+            <a class="tr_products" href="#">
+              <div class="text">
+                <h5>Smart Headphone</h5>
+                <p>10% OFF</p>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span><i class="fa-solid fa-star"></i></span>
+                </div>
+              </div>
+              <img src="images/tr_products/product-1.png" alt="product-1">
+            </a>
+          </div>
+          <div class="col-lg-4">
+            <a class="tr_products" href="#">
+              <div class="text">
+                <h5>DSLR Camera</h5>
+                <p>10% OFF</p>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span><i class="fa-solid fa-star"></i></span>
+                </div>
+              </div>
+              <img src="images/tr_products/product-2.png" alt="product-2">
+            </a>
+          </div>
+          <div class="col-lg-4">
+            <a class="tr_products" href="#">
+              <div class="text">
+                <h5>Hiking Shoes</h5>
+                <p>15% OFF</p>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span><i class="fa-solid fa-star"></i></span>
+                </div>
+              </div>
+              <img src="images/tr_products/product-3.png" alt="product-3">
+            </a>
+          </div>
+          <div class="col-lg-4">
+            <a class="tr_products" href="#">
+              <div class="text">
+                <h5>Blue High Hill</h5>
+                <p>5% OFF</p>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span><i class="fa-solid fa-star"></i></span>
+                </div>
+              </div>
+              <img src="images/tr_products/product-4.png" alt="product-4">
+            </a>
+          </div>
+          <div class="col-lg-4">
+            <a class="tr_products" href="#">
+              <div class="text">
+                <h5>Blue Casual Shoe</h5>
+                <p>20% OFF</p>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span><i class="fa-solid fa-star"></i></span>
+                </div>
+              </div>
+              <img src="images/tr_products/product-5.png" alt="product-5">
+            </a>
+          </div>
+          <div class="col-lg-4">
+            <a class="tr_products" href="#">
+              <div class="text">
+                <h5>JBL Speaker</h5>
+                <p>2% OFF</p>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span><i class="fa-solid fa-star"></i></span>
+                </div>
+              </div>
+              <img src="images/tr_products/product-6.png" alt="product-6">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===========top_rated end================== -->
+
+    <!-- ===========best_selling start============= -->
+    <section id="best_selling">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="sec_heading">
+              <h4>Best Selling Product</h4>
+            </div>
+          </div>
+        </div>
+        <div class="product_slider">
+          <div class="p_card">
+            <div class="off">
+              <p>New</p>
+            </div>
+            <div class="image">
+              <div class="overlay_img">
+                <div class="i"><i class="fa-solid fa-cart-plus"></i></div>
+                <div class="i"><i class="fa-solid fa-eye"></i></div>
+                <div class="i"><i class="fa-solid fa-share"></i></div>
+              </div>
+              <img src="images/products/man_shoe.png" alt="man_shoe-2.png">
+            </div>
+            <div class="bottom">
+              <div class="text">
+                <h5>Men Shoe</h5>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <p>(2)</p>
+                </div>
+                <p>৳1670</p>
+              </div>
+              <div class="heart">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+          </div>
+          <div class="p_card">
+            <div class="image">
+              <div class="overlay_img">
+                <div class="i"><i class="fa-solid fa-cart-plus"></i></div>
+                <div class="i"><i class="fa-solid fa-eye"></i></div>
+                <div class="i"><i class="fa-solid fa-share"></i></div>
+              </div>
+              <img src="images/products/jbl_speaker.png" alt="jbl_speaker.png">
+            </div>
+            <div class="bottom">
+              <div class="text">
+                <h5>JBL Bluetooth Speaker</h5>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <p>(25)</p>
+                </div>
+                <p>৳3000</p>
+              </div>
+              <div class="heart">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+          </div>
+          <div class="p_card">
+            <div class="image">
+              <div class="overlay_img">
+                <div class="i"><i class="fa-solid fa-cart-plus"></i></div>
+                <div class="i"><i class="fa-solid fa-eye"></i></div>
+                <div class="i"><i class="fa-solid fa-share"></i></div>
+              </div>
+              <img src="images/products/ladies_bag.png" alt="ladies_bag.png">
+            </div>
+            <div class="bottom">
+              <div class="text">
+                <h5>Ladies bag</h5>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <p>(155)</p>
+                </div>
+                <p>৳1000</p>
+              </div>
+              <div class="heart">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+          </div>
+          <div class="p_card">
+            <div class="image">
+              <div class="overlay_img">
+                <div class="i"><i class="fa-solid fa-cart-plus"></i></div>
+                <div class="i"><i class="fa-solid fa-eye"></i></div>
+                <div class="i"><i class="fa-solid fa-share"></i></div>
+              </div>
+              <img src="images/products/jbl.png" alt="jbl.png">
+            </div>
+            <div class="bottom">
+              <div class="text">
+                <h5>JBL</h5>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <p>(25)</p>
+                </div>
+                <p>৳10000<span class="discount">৳15000</span></p>
+              </div>
+              <div class="heart">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+          </div>
+          <div class="p_card">
+            <div class="off">
+              <p>10% OFF</p>
+            </div>
+            <div class="image">
+              <div class="overlay_img">
+                <div class="i"><i class="fa-solid fa-cart-plus"></i></div>
+                <div class="i"><i class="fa-solid fa-eye"></i></div>
+                <div class="i"><i class="fa-solid fa-share"></i></div>
+              </div>
+              <img src="images/products/leather_belt.png" alt="leather_belt.png">
+            </div>
+            <div class="bottom">
+              <div class="text">
+                <h5>Leather Belt</h5>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <p>(235)</p>
+                </div>
+                <p>৳1000<span class="discount">৳1100</span></p>
+              </div>
+              <div class="heart">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+          </div>
+          <div class="p_card">
+            <div class="off">
+              <p>50% OFF</p>
+            </div>
+            <div class="image">
+              <div class="overlay_img">
+                <div class="i"><i class="fa-solid fa-cart-plus"></i></div>
+                <div class="i"><i class="fa-solid fa-eye"></i></div>
+                <div class="i"><i class="fa-solid fa-share"></i></div>
+              </div>
+              <img src="images/products/blue_manshoe.png" alt="blue_manshoe.png">
+            </div>
+            <div class="bottom">
+              <div class="text">
+                <h5>Blue Leather Man Shoe</h5>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <p>(25)</p>
+                </div>
+                <p>৳1399<span class="discount">৳2800</span></p>
+              </div>
+              <div class="heart">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+          </div>
+          <div class="p_card">
+            <div class="off">
+              <p>New</p>
+            </div>
+            <div class="image">
+              <div class="overlay_img">
+                <div class="i"><i class="fa-solid fa-cart-plus"></i></div>
+                <div class="i"><i class="fa-solid fa-eye"></i></div>
+                <div class="i"><i class="fa-solid fa-share"></i></div>
+              </div>
+              <img src="images/products/power_bank.png" alt="power_bank.png">
+            </div>
+            <div class="bottom">
+              <div class="text">
+                <h5>power Bank</h5>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <p>(2)</p>
+                </div>
+                <p>৳1500</p>
+              </div>
+              <div class="heart">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+          </div>
+          <div class="p_card">
+            <div class="off">
+              <p>30% OFF</p>
+            </div>
+            <div class="image">
+              <div class="overlay_img">
+                <div class="i"><i class="fa-solid fa-cart-plus"></i></div>
+                <div class="i"><i class="fa-solid fa-eye"></i></div>
+                <div class="i"><i class="fa-solid fa-share"></i></div>
+              </div>
+              <img src="images/products/hiking_shoe.png" alt="hiking_shoe.png">
+            </div>
+            <div class="bottom">
+              <div class="text">
+                <h5>Hiking shoe</h5>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <p>(25)</p>
+                </div>
+                <p>৳3300</p>
+              </div>
+              <div class="heart">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+          </div>
+          <div class="p_card">
+            <div class="image">
+              <div class="overlay_img">
+                <div class="i"><i class="fa-solid fa-cart-plus"></i></div>
+                <div class="i"><i class="fa-solid fa-eye"></i></div>
+                <div class="i"><i class="fa-solid fa-share"></i></div>
+              </div>
+              <img src="images/products/smart_headphone.png" alt="smart_headphone.png">
+            </div>
+            <div class="bottom">
+              <div class="text">
+                <h5>Smart Headphone</h5>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <span><i class="fa-solid fa-star"></i></span>
+                  <p>(155)</p>
+                </div>
+                <p>৳1000<span class="discount">৳2500</span></p>
+              </div>
+              <div class="heart">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===========best_selling end=============== -->
+
+    <!-- ===========upcoming start================= -->
+    <section id="upcoming">
+      <div class="container">
+        <div class="up_product">
+          <div class="text">
+            <h4>Upcoming Product</h4>
+            <h3>I PHONE 14 PRO MAX</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          </div>
+          <div class="launching">
+            <div class="timer_count">
+              <p id="days">00</p>
+              <span>:</span>
+            </div>
+            <div class="timer_count">
+              <p id="hours">00</p>
+              <span>:</span>
+            </div>
+            <div class="timer_count">
+              <p id="minutes">00</p>
+              <span>:</span>
+            </div>
+            <div class="timer_count">
+              <p id="seconds">00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===========upcoming end=================== -->
+
+    <!-- ===========letest_product start=========== -->
+    <section id="letest_product">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="sec_heading">
+              <h4>Letest Products</h4>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-2">
+            <div class="p_card">
+              <div class="off">
+                <p>New</p>
+              </div>
+              <div class="image">
+                <div class="overlay_img">
+                  <div class="i"><i class="fa-solid fa-cart-plus"></i></div>
+                  <div class="i"><i class="fa-solid fa-eye"></i></div>
+                  <div class="i"><i class="fa-solid fa-share"></i></div>
+                </div>
+                <img src="images/products/duranta-bike.png" alt="duranta-bike.png">
+              </div>
+              <div class="bottom">
+                <div class="text">
+                  <h5>Duranta Fat Bike</h5>
+                  <div class="icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <p>(2)</p>
+                  </div>
+                  <p>৳18000</p>
+                </div>
+                <div class="heart">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="p_card">
+              <div class="image">
+                <div class="overlay_img">
+                  <div class="i"><i class="fa-solid fa-cart-plus"></i></div>
+                  <div class="i"><i class="fa-solid fa-eye"></i></div>
+                  <div class="i"><i class="fa-solid fa-share"></i></div>
+                </div>
+                <img src="images/products/wooden_chair.png" alt="wooden_chair.png">
+              </div>
+              <div class="bottom">
+                <div class="text">
+                  <h5>Wooden Chair</h5>
+                  <div class="icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <p>(25)</p>
+                  </div>
+                  <p>৳3000</p>
+                </div>
+                <div class="heart">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="p_card">
+              <div class="off">
+                <p>20% OFF</p>
+              </div>
+              <div class="image">
+                <div class="overlay_img">
+                  <div class="i"><i class="fa-solid fa-cart-plus"></i></div>
+                  <div class="i"><i class="fa-solid fa-eye"></i></div>
+                  <div class="i"><i class="fa-solid fa-share"></i></div>
+                </div>
+                <img src="images/products/flower_lamp.png" alt="flower_lamp.png">
+              </div>
+              <div class="bottom">
+                <div class="text">
+                  <h5>Flower Lamp</h5>
+                  <div class="icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <p>(155)</p>
+                  </div>
+                  <p>৳1000</p>
+                </div>
+                <div class="heart">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="p_card">
+              <div class="image">
+                <div class="overlay_img">
+                  <div class="i"><i class="fa-solid fa-cart-plus"></i></div>
+                  <div class="i"><i class="fa-solid fa-eye"></i></div>
+                  <div class="i"><i class="fa-solid fa-share"></i></div>
+                </div>
+                <img src="images/products/kitchen_hanger.png" alt="kitchen_hanger.png">
+              </div>
+              <div class="bottom">
+                <div class="text">
+                  <h5>Kitchen Hanger</h5>
+                  <div class="icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <p>(25)</p>
+                  </div>
+                  <p>৳800<span class="discount">৳1200</span></p>
+                </div>
+                <div class="heart">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="p_card">
+              <div class="off">
+                <p>10% OFF</p>
+              </div>
+              <div class="image">
+                <div class="overlay_img">
+                  <div class="i"><i class="fa-solid fa-cart-plus"></i></div>
+                  <div class="i"><i class="fa-solid fa-eye"></i></div>
+                  <div class="i"><i class="fa-solid fa-share"></i></div>
+                </div>
+                <img src="images/products/ask_again.png" alt="ask_again.png">
+              </div>
+              <div class="bottom">
+                <div class="text">
+                  <h5>Ask Again Yes Book</h5>
+                  <div class="icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <p>(235)</p>
+                  </div>
+                  <p>৳750<span class="discount">৳1100</span></p>
+                </div>
+                <div class="heart">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="p_card">
+              <div class="off">
+                <p>50% OFF</p>
+              </div>
+              <div class="image">
+                <div class="overlay_img">
+                  <div class="i"><i class="fa-solid fa-cart-plus"></i></div>
+                  <div class="i"><i class="fa-solid fa-eye"></i></div>
+                  <div class="i"><i class="fa-solid fa-share"></i></div>
+                </div>
+                <img src="images/products/fresh_milk.png" alt="fresh_milk.png">
+              </div>
+              <div class="bottom">
+                <div class="text">
+                  <h5>Fresh Milk 5ltr.</h5>
+                  <div class="icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <p>(25)</p>
+                  </div>
+                  <p>৳450<span class="discount">৳520</span></p>
+                </div>
+                <div class="heart">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="load_more" type="submit">LOAD MORE</button>
+      </div>
+    </section>
+    <!-- ===========letest_product end============= -->
+
+    <!-- ===========brands start=================== -->
     <section id="brands">
       <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="sec_heading">
+              <h4>Brands</h4>
+            </div>
+          </div>
+        </div>
         <div class="row gap">
           <div class="col-lg-2">
             <div class="brand_img">
@@ -330,7 +1792,9 @@
         <button class="load_more">LOAD MORE</button>
       </div>
     </section>
+    <!-- ===========brands end===================== -->
 
+    <!-- ===========footer start=================== -->
     <footer>
       <div class="container">
         <div class="top">
@@ -405,9 +1869,9 @@
             </div>
             <div class="col-lg-3">
               <h2>NEWSLETTER</h2>
-              <form>
-                <input type="text" placeholder="Email Address">
-                <button type="submit">Subscribe</button>
+              <form class="subscribe_from">
+                <input class="subscribe_input" type="email" placeholder="Email Address">
+                <button class="subscribe_button" type="submit">Subscribe</button>
               </form>
               <h2>PAYMENT METHODS</h2>
               <div class="image">
@@ -430,16 +1894,17 @@
         </div>
       </div>
     </footer>
+    <!-- ===========footer end===================== -->
 
     <!-- =================jquery all version js================= -->
     <script src="js/jquery-1.12.4.min.js"></script>
-    <!-- =================slick slider js================= -->
+    <!-- =================slick slider js======================= -->
     <script src="js/slick.min.js"></script>
-    <!-- =================bootstrap js================= -->
+    <!-- =================bootstrap js========================== -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.3/js/bootstrap.bundle.min.js"></script>
-    <!-- =================Font awesome js================= -->
+    <!-- =================Font awesome js======================= -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js"></script>
-    <!-- =================script js================= -->
+    <!-- =================script js============================= -->
     <script src="js/script.js"></script>
 </body>
 </html>
