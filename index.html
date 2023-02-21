@@ -33,17 +33,17 @@
                 <div class="text">
                     <p>Free Returns. Standard Shipping Orders $99+  </p>
                 </div>
-                <nav class="header_nav">
-                    <ul>
-                        <li><a href="#">My Account</a></li>
-                        <li><a href="#">Contact  Us</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">My Wishlist</a></li>
-                        <li><a href="#">Cart</a></li>
-                        <li><a href="#">Login</a></li>
+                <nav class="header_nav d-flex">
+                    <ul class="position-relative d-flex">
+                        <li><a class="nav_btn active" href="#">My Account</a></li>
+                        <li><a class="nav_btn" href="#">Contact  Us</a></li>
+                        <li><a class="nav_btn" href="#">Blog</a></li>
+                        <li><a class="nav_btn" href="#">My Wishlist</a></li>
+                        <li><a class="nav_btn" href="#">Cart</a></li>
+                        <li><a class="nav_btn" href="#">Login</a></li>
                     </ul>
     
-                    <form>
+                    <form class="position-relative d-flex align-items-center">
                         <select name="" id="">
                             <option value=""><h3>BNG</h3></option>
                             <option value=""><h3>ENG</h3></option>
@@ -54,7 +54,7 @@
                         </select>
                     </form>
     
-                    <div class="social">
+                    <div class="social d-flex align-items-center">
                         <a href="#"><i class="fa-brands fa-facebook"></i></a>
                         <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
                         <a href="#"><i class="fa-brands fa-instagram"></i></a>
@@ -81,7 +81,7 @@
             </a>
           </div>
           <div class="col-lg-3">
-            <form class="logo_part_form">
+            <form class="logo_part_form position-relative">
               <input type="text" placeholder="Search in Hamza Mart..." >
               <button type="submit" value="Search">
                 <i class="fa-solid fa-magnifying-glass"></i>
@@ -89,7 +89,7 @@
             </form>
           </div>
           <div class="col-lg-2">
-            <div class="call_us">
+            <div class="call_us d-flex align-items-center">
               <div class="icon">
                 <i class="fa-solid fa-phone"></i>
               </div>
@@ -100,15 +100,15 @@
             </div>
           </div>
           <div class="col-lg-2">
-            <div class="cart_part">
+            <div class="cart_part text-end">
               <a href="#">
                 <i class="fa-solid fa-circle-user"></i>
               </a>
-              <a class="heart_i" href="#">
+              <a class="heart_i position-relative" href="#">
                 <i class="fa-solid fa-heart"></i>
                 <h5>15</h5>
               </a>
-              <a class="heart_i" href="#">
+              <a class="heart_i position-relative" href="#">
                 <i class="fa-solid fa-cart-shopping"></i>
                 <h5>15</h5>
               </a>
@@ -1494,19 +1494,19 @@
           </div>
           <div class="launching">
             <div class="timer_count">
-              <p id="days">00</p>
+              <p id="days1">00</p>
               <span>:</span>
             </div>
             <div class="timer_count">
-              <p id="hours">00</p>
+              <p id="hours1">00</p>
               <span>:</span>
             </div>
             <div class="timer_count">
-              <p id="minutes">00</p>
+              <p id="minutes1">00</p>
               <span>:</span>
             </div>
             <div class="timer_count">
-              <p id="seconds">00</p>
+              <p id="seconds1">00</p>
             </div>
           </div>
         </div>
@@ -1794,8 +1794,8 @@
     </section>
     <!-- ===========brands end===================== -->
 
-    <!-- ===========footer start=================== -->
-    <footer>
+    <!-- ===========footer_part start=================== -->
+    <footer id="footer_part">
       <div class="container">
         <div class="top">
           <div class="row">
@@ -1818,7 +1818,7 @@
                   <h3>WORKING DAYS/HOURS</h3>
                   <p class="paragraph">Mon - Sun / 9:00 AM - 8:00 PM</p>
                 </div>
-                <div class="icon">
+                <div class="icon d-flex justify-content-between">
                   <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                   <a href="#"><i class="fa-brands fa-instagram"></i></a>
                   <a href="#"><i class="fa-brands fa-twitter"></i></a>
@@ -1894,7 +1894,7 @@
         </div>
       </div>
     </footer>
-    <!-- ===========footer end===================== -->
+    <!-- ===========footer_part end===================== -->
 
     <!-- =================jquery all version js================= -->
     <script src="js/jquery-1.12.4.min.js"></script>

@@ -96,6 +96,7 @@ a {
     border-radius: 0 50px 50px 0;
     padding: 0 10px;
 }
+/* ===============Countdown common css=============== */
 .launching {
     display: flex;
 }
@@ -107,7 +108,7 @@ a {
     font-family: var(--nunito);
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 50px;
     color: #FFFFFF;
     height: 50px;
@@ -125,12 +126,13 @@ a {
     color: #000000;
     margin: 0 6px;
 }
+/* ===========Countdown common css=============== */
+
 /* ===============card common css=============== */
 .p_card {
     box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     overflow: hidden;
-    /* width: 203px; */
     max-width: 203px;
     transition: all .3s linear;
     position: relative;
@@ -311,13 +313,6 @@ a {
     line-height: 50px;
     color: #000000;
 }
-#header_part .main .header_nav {
-    display: flex;
-}
-#header_part .main .header_nav ul{
-    display: flex;
-    position: relative;
-}
 #header_part .main .header_nav ul::after{
     content: "";
     height: 38px;
@@ -327,7 +322,7 @@ a {
     top: 6px;
     right: 0;
 }
-#header_part .main .header_nav ul li a{
+#header_part .main .header_nav ul li .nav_btn{
     font-family: var(--nunito_s);
     font-style: normal;
     font-weight: 400;
@@ -337,13 +332,11 @@ a {
     margin-right: 23px;
     transition: all .3s linear;
 }
-#header_part .main .header_nav ul li a:hover{
+#header_part .main .header_nav ul li .nav_btn:hover{
     color: var(--color_a);
 }
-#header_part .main form {
-	position: relative;
-	display: flex;
-	align-items: center;
+#header_part .main .header_nav ul li .active{
+    color: var(--color_a);
 }
 #header_part .main form::after {
     content: "";
@@ -368,10 +361,6 @@ a {
 #header_part .main form .currency{
     margin-right: 23px;
 }
-#header_part .main .social{
-    display: flex;
-    align-items: center;
-}
 #header_part .main .social a{
     margin-left: 16px;
     color: var(--color_a);
@@ -387,9 +376,6 @@ a {
 #logo_part .custom_row {
 	align-items: center;
 	height: 80px;
-}
-#logo_part .logo_part_form {
-    position: relative;
 }
 #logo_part .logo_part_form input {
     width: 100%;
@@ -417,11 +403,6 @@ a {
 	font-size: 21px;
     transform: translateY(-50%);
 }
-#logo_part .call_us {
-	display: flex;
-    align-items: center;
-    
-}
 #logo_part .call_us .icon {
 	font-size: 42px;
     color: #FF9900;
@@ -447,12 +428,6 @@ a {
     font-size: 33px;
     margin-left: 27px;
     color: #FF9900;
-}
-#logo_part .cart_part {
-    text-align: end;
-}
-#logo_part .cart_part .heart_i{
-    position: relative;
 }
 #logo_part .cart_part .heart_i h5{
     font-family: var(--nunito);
@@ -493,7 +468,9 @@ a {
     transition: all .3s linear;
 }
 #navbar li .nav-link:hover{
-    font-size: 15px;
+    color: #fff;
+}
+#navbar li .active{
     color: #fff;
 }
 #navbar .dropdown-item {
@@ -511,7 +488,7 @@ a {
     background: #000;
     display: none;
 }
-#navshow_part .breadcrumb-item, a{
+#navshow_part .breadcrumb-item{
     font-family: var(--nunito_s);
     font-style: normal;
     font-weight: 600;
@@ -522,6 +499,12 @@ a {
 }
 #navshow_part .breadcrumb-item a{
     padding: 0;
+    font-family: var(--nunito_s);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 40px;
+    color: #FFFFFF;
 }
 #navshow_part .breadcrumb-item + .breadcrumb-item::before {
     color: #FFFFFF;
@@ -689,7 +672,7 @@ a {
     align-items: center;
 }
 #flshsale_part .main .main2 .launching .timer_count p {
-	font-size: 15px;
+	font-size: 14px;
 	line-height: 35px;
 	height: 35px;
 	width: 35px;
@@ -894,15 +877,15 @@ a {
 /* =================================Brands css end============================== */
 
 /* =================================Footer css start============================ */
-footer{
+#footer_part{
     width: 100%;
     background: #000;
     margin-top: 50px;
 }
-footer .top{
+#footer_part .top{
     padding: 70px 0 40px;
 }
-footer .top h2{
+#footer_part .top h2{
     font-family: var(--nunito);
     font-style: normal;
     font-weight: 800;
@@ -911,7 +894,7 @@ footer .top h2{
     color: #FFFFFF;
     margin-bottom: 30px;
 }
-footer .top .info h3 {
+#footer_part .top .info h3 {
 	font-family: var(--nunito);
 	font-style: normal;
 	font-weight: 500;
@@ -919,7 +902,7 @@ footer .top .info h3 {
 	line-height: 25px;
 	color: #FFFFFF;
 }
-footer .top .info .paragraph {
+#footer_part .top .info .paragraph {
 	font-family: var(--nunito);
 	font-style: normal;
 	font-weight: 500;
@@ -927,14 +910,10 @@ footer .top .info .paragraph {
 	line-height: 30px;
 	color: #FFFFFF;
 }
-footer .top .info .contact {
+#footer_part .top .info .contact {
 	margin-bottom: 20px;
 }
-footer .top .info .icon {
-	display: flex;
-    justify-content: space-between;
-}
-footer .top .info .icon a {
+#footer_part .top .info .icon a {
 	font-size: 23px;
     height: 50px;
     width: 50px;
@@ -945,7 +924,7 @@ footer .top .info .icon a {
     text-align: center;
     line-height: 47px;
 }
-footer .top .service ul li a {
+#footer_part .top .service ul li a {
     font-family: var(--nunito);
     font-style: normal;
     font-weight: 500;
@@ -954,10 +933,10 @@ footer .top .service ul li a {
     color: #FFFFFF;
     transition: all .3s linear;
 }
-footer .top .service ul li a:hover {
+#footer_part .top .service ul li a:hover {
     color: #FF9900;
 }
-footer .top .tags a{
+#footer_part .top .tags a{
     padding: 7px 12px;
     font-family: var(--nunito);
     font-style: normal;
@@ -969,28 +948,28 @@ footer .top .tags a{
     margin: 0 15px 15px 0;
     transition: all .3s linear;
 }
-footer .top .tags a:hover{
+#footer_part .top .tags a:hover{
     background: #FF9900;
     color: #000;
     border: 1px solid #FF9900;
 }
-footer .top form {
+#footer_part .top form {
     margin-bottom: 30px;
 }
-footer .top form input{
+#footer_part .top form input{
     width: 100%;
 }
-footer .top .image img{
+#footer_part .top .image img{
     margin-bottom: 15px;
 }
-footer .bottom{
+#footer_part .bottom{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 35px 0;
     border-top: 1px solid #898989;
 }
-footer .bottom p{
+#footer_part .bottom p{
     font-family: var(--nunito);
     font-style: normal;
     font-weight: 400;
