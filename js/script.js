@@ -34,8 +34,7 @@ $('.product_slider').slick({
     slidesToShow: 6,
     slidesToScroll: 1,
     centerPadding: '60px',
-    autoplay: false,
-    pauseOnHover: false,
+    autoplay: true,
     prevArrow: '<i class=" prev fa-solid fa-angle-left"></i>',
     nextArrow: '<i class=" next fa-solid fa-angle-right"></i>',
   });
