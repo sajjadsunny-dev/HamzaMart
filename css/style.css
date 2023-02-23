@@ -296,6 +296,123 @@ a {
 	text-align: center;
 	border-radius: 50%;
 }
+/* ===============simple title common css=============== */
+.simple_title{
+    font-family: var(--nunito_s);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 70px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+/* ===============simple title common css=============== */
+/* ===============simple_form common css=============== */
+.simple_form{
+    width: 650px;
+    margin: 0 auto;
+    padding: 40px 105px 50px 105px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.simple_form .simple_label{
+    font-family: var(--nunito_s);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #898989;
+    margin-bottom: 10px;
+}
+.simple_form .simple_input{
+    font-family: var(--nunito_s);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #696969;
+    padding: 15px 60px 15px 20px;
+    border-radius: 50px;
+    border: 1px solid #898989;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.simple_form .simple_input:focus{
+    outline: 0;
+}
+.simple_form .forgot{
+    text-align: end;
+    font-family: var(--nunito_s);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #4267B2;
+}
+.simple_form .sub_btn{
+    width: 200px;
+    height: 50px;
+    margin: 10px auto;
+    display: block;
+    background: var(--color_a);
+    font-family: var(--nunito_s);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    border: 1px solid var(--color_a);
+    border-radius: 50px;
+    color: #FFFFFF;
+    transition: all .3s linear;
+}
+.simple_form .sub_btn:hover{
+    background: #fff;
+    color: var(--color_a);
+}
+.simple_form .simple_p{
+    /* margin: 10px 0; */
+    text-align: center;
+    font-family: var(--nunito_s);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #AAAAAA;
+}
+.simple_form .simple_p a{
+    color: #4267B2;
+    font-weight: 600;
+}
+.simple_form .simple_icon{
+    width: 120px;
+    margin: 10px auto 20px;
+}
+.simple_form .simple_icon i{
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #4267B2;
+    border-radius: 50px;
+    font-size: 25px;
+    color: #fff;
+}
+.simple_form .simple_icon .fa-google-plus-g{
+    background: #DB4A39;
+}
+.simple_form .input_simple i {
+	font-size: 20px;
+	position: absolute;
+	top: 15px;
+	right: 25px;
+	transition: all .2s linear;
+	color: #8e8e8e;
+}
+.simple_form .input_simple i:hover{
+    color: #5b90fa;
+}
+/* ===============simple_form common css=============== */
+
 /* =================================Common css end============================== */
 
 /* =================================Header css start============================ */
