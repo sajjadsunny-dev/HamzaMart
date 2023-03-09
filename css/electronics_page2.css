@@ -1,0 +1,76 @@
+#all_e_products .p_card2{
+    height: 204px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    transition: all .2s linear;
+}
+#all_e_products .p_card2:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+#all_e_products .p_card2 img{
+    border-right: 1px solid #FF9900;
+}
+#all_e_products .p_card2 .text{
+    padding: 10px;
+}
+#all_e_products .p_card2 .text h2{
+    font-family: var(--nunito);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+#all_e_products .p_card2 .text .icon i{
+    font-size: 12px;
+    margin-right: 2px;
+    color: #FF9900;
+}
+#all_e_products .p_card2 .text .icon span i{
+    color: rgba(0, 0, 0, .4);
+}
+#all_e_products .p_card2 .text .icon p{
+    font-family: var(--nunito);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    margin-left: 3px;
+}
+#all_e_products .p_card2 .text .details_p{
+    font-family: var(--nunito);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    width: 720px;
+}
+#all_e_products .p_card2 .text h4{
+    font-family: var(--nunito);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+    color: #000000;
+}
+#all_e_products .p_card2 .text .fa-heart{
+    font-size: 25px;
+    color: #FF9900;
+}
+#all_e_products .p_card2 .hover_icon i{
+    font-size: 20px;
+    color: #fff;
+    background: #FF9900;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #FF9900;
+    transition: all .3s linear;
+}
+#all_e_products .p_card2 .hover_icon i:hover{
+    color: #FF9900;
+    background: #ffffff;
+}

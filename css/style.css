@@ -31,6 +31,9 @@ a {
     --nunito_s: 'Nunito Sans', sans-serif;
     --color_a: #FF9900;
 }
+/* =============categories tab common css start========= */
+
+/* =============categories tab common css end=========== */
 .sec_heading h4{
     width: 100%;
     font-family: var(--nunito);
@@ -129,6 +132,9 @@ a {
 /* ===========Countdown common css=============== */
 
 /* ===============card common css=============== */
+.p_card_a{
+    display: block;
+}
 .p_card {
     box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
@@ -485,7 +491,61 @@ a {
     padding: 5px;
 }
 /* =================================Header css end============================== */
-
+.categories {
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #FF9900;
+}
+.categories .text {
+    background: #FF9900;
+}
+.categories .text h4 {
+    padding: 15px 0;
+    text-align: start;
+    font-family: var(--nunito);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 20px;
+    color: #ffffff;
+    margin-left: 88px;
+}
+.categories .filter {
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px 0 27px;
+}
+.categories .filter .items {
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #FF9900;
+	padding: 19px 0;
+	color: #FF9900;
+	font-size: 20px;
+}
+.categories .filter .items h5{
+    margin-left: 15px;
+    font-family: var(--inter);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;    
+}
+.categories .offer {
+	background: #FF9900;
+	text-align: center;
+	margin: 20px 24px 20px 29px;
+}
+.categories .offer h4{
+    font-family: var(--nunito);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 23px;
+    color: #FFFFFF;
+    padding: 24px 37px 25px 36px;
+}
 /* =================================Logo_part css start========================= */
 #logo_part {
     padding: 15px 0;
@@ -635,61 +695,6 @@ a {
 /* =================================Banner_part css start======================= */
 #banner_part {
     padding: 20px 0 50px;
-}
-#banner_part .categories {
-    border-radius: 10px;
-    overflow: hidden;
-    border: 1px solid #FF9900;
-}
-#banner_part .categories .text {
-    background: #FF9900;
-}
-#banner_part .categories .text h4 {
-    padding: 15px 0;
-    text-align: start;
-    font-family: var(--nunito);
-    font-style: normal;
-    font-weight: 800;
-    font-size: 15px;
-    line-height: 20px;
-    color: #ffffff;
-    margin-left: 88px;
-}
-#banner_part .categories .filter {
-    display: flex;
-    flex-direction: column;
-    padding: 0 24px 0 27px;
-}
-#banner_part .categories .filter .items {
-	display: flex;
-	align-items: center;
-	border-bottom: 1px solid #FF9900;
-	padding: 19px 0;
-	color: #FF9900;
-	font-size: 20px;
-}
-#banner_part .categories .filter .items h5{
-    margin-left: 15px;
-    font-family: var(--inter);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
-    color: #000000;    
-}
-#banner_part .categories .offer {
-	background: #FF9900;
-	text-align: center;
-	margin: 20px 24px 20px 29px;
-}
-#banner_part .categories .offer h4{
-    font-family: var(--nunito);
-    font-style: normal;
-    font-weight: 800;
-    font-size: 16px;
-    line-height: 23px;
-    color: #FFFFFF;
-    padding: 24px 37px 25px 36px;
 }
 #banner_part .banner{
     background: url(../images/Banner/banner.jpg) no-repeat center;

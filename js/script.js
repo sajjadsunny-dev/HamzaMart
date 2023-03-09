@@ -40,7 +40,7 @@ $('.product_slider').slick({
   });
 
 // ================flashsall countdown js==============
-var countDownDate = new Date("Mar 15, 2023 00:00:00").getTime();
+var countDownDate = new Date("Mar 15, 2024 00:00:00").getTime();
 
 var x = setInterval(function() {
 
@@ -53,10 +53,10 @@ var x = setInterval(function() {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  document.getElementById("days").innerHTML = days + "d ";
-  document.getElementById("hours").innerHTML = hours + "h ";
-  document.getElementById("minutes").innerHTML = minutes + "m ";
-  document.getElementById("seconds").innerHTML = seconds + "s ";
+  document.getElementById("days").innerHTML = days + "d";
+  document.getElementById("hours").innerHTML = hours + "h";
+  document.getElementById("minutes").innerHTML = minutes + "m";
+  document.getElementById("seconds").innerHTML = seconds + "s";
 
   if (distance < 0) {
     clearInterval(x);
@@ -65,7 +65,7 @@ var x = setInterval(function() {
 }, 1000);
 
 // ================upcomming countdown js==============
-var countDownDate1 = new Date("Mar 8, 2023 00:00:00").getTime();
+var countDownDate1 = new Date("Mar 8, 2024 00:00:00").getTime();
 
 var x = setInterval(function() {
 
@@ -89,3 +89,30 @@ var x = setInterval(function() {
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
 }, 1000);
+
+
+// ================product information page product image silection js==============
+var MainImg = document.getElementById("mainimg")
+var smlimg = document.getElementsByClassName("smallimages")
+
+smlimg[0].onclick = function(){
+  MainImg.src = smlimg[0].src;
+}
+smlimg[1].onclick = function(){
+  MainImg.src = smlimg[1].src;
+}
+smlimg[2].onclick = function(){
+  MainImg.src = smlimg[2].src;
+}
+smlimg[3].onclick = function(){
+  MainImg.src = smlimg[3].src;
+}
+smlimg[4].onclick = function(){
+  MainImg.src = smlimg[4].src;
+}
+smlimg[5].onclick = function(){
+  MainImg.src = smlimg[5].src;
+}
+smlimg[6].onclick = function(){
+  MainImg.src = smlimg[6].src;
+}

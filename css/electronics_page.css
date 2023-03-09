@@ -1,0 +1,114 @@
+#all_e_products {
+	padding: 20px 0 50px;
+}
+#all_e_products .categories .filter {
+	padding: 0 12px 0 12px;
+}
+#all_e_products .categories .text h4 {
+	padding: 15px 0;
+    width: 100%;
+	text-align: center;
+	margin-left: 0px;
+}
+#all_e_products .categories .filter .items {
+	padding: 15px 0;
+}
+#all_e_products .categories .offer {
+	background: #FF9900;
+	text-align: center;
+	margin: 15px 12px;
+}
+#all_e_products .categories .offer h4 {
+	padding: 15px;
+}
+#all_e_products .categories .filter .size_btn {
+	width: 50px;
+	height: 30px;
+	border: 1px solid #D6D0D0;
+	margin-left: 6px;
+	font-family: var(--nunito_s);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 30px;
+	color: #000000;
+	text-align: center;
+}
+#all_e_products .categories .filter .size_btn:hover {
+    color: #FF9900;
+    border: 1px solid #FF9900;
+}
+#all_e_products .sec_heading h4 {
+    font-size: 15px;
+}
+#all_e_products .brand_logo {
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#all_e_products .p_card .image .overlay_img {
+	padding: 20px 17px 0 0;
+}
+#all_e_products .p_card .image img {
+	width: 100%;
+    height: 170px;
+}
+#all_e_products .p_card .bottom {
+	padding: 10px;
+}
+#all_e_products .p_card .bottom .text .icon p {
+	font-size: 12px;
+}
+#all_e_products .p_card .bottom .heart {
+	font-size: 20px;
+}
+#all_e_products .p_card .image .overlay_img .i {
+	width: 35px;
+	height: 35px;
+	font-size: 17px;
+	line-height: 35px;
+}
+#all_e_products .main p{
+    font-family: var(--nunito);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #898989;
+}
+#all_e_products .main select{
+    font-family: var(--nunito);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #AAAAAA;
+    border: 0;
+    background: #fff;
+    margin: 0 15px 0 10px;
+    cursor: pointer;
+}
+#all_e_products .main select option{
+    font-family: var(--nunito);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #AAAAAA;
+    border: 0;
+    background: #fff;
+}
+#all_e_products .main a i{
+    font-size: 25px;
+    color: rgba(0, 0, 0, .4);
+    margin-left: 15px;
+    transition: all .3s linear;
+    padding: 5px;
+}
+#all_e_products .main a i:hover{
+    color: #FF9900;
+}
